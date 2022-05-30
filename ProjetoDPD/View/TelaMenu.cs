@@ -16,5 +16,29 @@ namespace ProjetoDPD.View
         {
             InitializeComponent();
         }
+
+        private void cadastrarProdutosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastrarProduto telaCadastrar = new CadastrarProduto();
+            telaCadastrar.ShowDialog();
+        }
+
+        private void gerenciarProdutoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GerenciarProduto telaCadastrar = new GerenciarProduto();
+            telaCadastrar.ShowDialog();
+        }
+
+        private void realizarEncomendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           CadastrarEncomenda telaCadastrar = new CadastrarEncomenda();
+            telaCadastrar.ShowDialog();
+        }
+
+        private void gerenciarEncomendasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Gerenciar_Encomendas telaCadastrar = new Gerenciar_Encomendas();
+            telaCadastrar.ShowDialog();
+        }
     }
 }

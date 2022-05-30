@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjetoDPD.Controller
 {
-    class conexaoBD
+    public class conexaoBD
     {
         public static string conectar()
         {
