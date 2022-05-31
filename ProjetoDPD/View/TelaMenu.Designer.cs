@@ -43,6 +43,7 @@ namespace ProjetoDPD.View
             this.gerenciarEncomendasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visualizarPerfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.visualizarPerfilToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -144,7 +145,8 @@ namespace ProjetoDPD.View
             // usuarioToolStripMenuItem
             // 
             this.usuarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.visualizarPerfilToolStripMenuItem});
+            this.visualizarPerfilToolStripMenuItem,
+            this.visualizarPerfilToolStripMenuItem1});
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
             this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(70, 28);
             this.usuarioToolStripMenuItem.Text = "Perfil";
@@ -152,8 +154,16 @@ namespace ProjetoDPD.View
             // visualizarPerfilToolStripMenuItem
             // 
             this.visualizarPerfilToolStripMenuItem.Name = "visualizarPerfilToolStripMenuItem";
-            this.visualizarPerfilToolStripMenuItem.Size = new System.Drawing.Size(220, 28);
-            this.visualizarPerfilToolStripMenuItem.Text = "Visualizar Perfil";
+            this.visualizarPerfilToolStripMenuItem.Size = new System.Drawing.Size(236, 28);
+            this.visualizarPerfilToolStripMenuItem.Text = "Cadastrar Usuario";
+            this.visualizarPerfilToolStripMenuItem.Click += new System.EventHandler(this.visualizarPerfilToolStripMenuItem_Click);
+            // 
+            // visualizarPerfilToolStripMenuItem1
+            // 
+            this.visualizarPerfilToolStripMenuItem1.Name = "visualizarPerfilToolStripMenuItem1";
+            this.visualizarPerfilToolStripMenuItem1.Size = new System.Drawing.Size(236, 28);
+            this.visualizarPerfilToolStripMenuItem1.Text = "Visualizar Perfil";
+            this.visualizarPerfilToolStripMenuItem1.Click += new System.EventHandler(this.visualizarPerfilToolStripMenuItem1_Click);
             // 
             // TelaMenu
             // 
@@ -187,5 +197,6 @@ namespace ProjetoDPD.View
         private System.Windows.Forms.ToolStripMenuItem gerenciarEncomendasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem usuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem visualizarPerfilToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem visualizarPerfilToolStripMenuItem1;
     }
 }

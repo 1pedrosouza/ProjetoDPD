@@ -77,6 +77,7 @@ namespace ProjetoDPD.View
             this.tbxNome1.Name = "tbxNome1";
             this.tbxNome1.Size = new System.Drawing.Size(158, 29);
             this.tbxNome1.TabIndex = 1;
+            this.tbxNome1.Text = "não digite aqui";
             // 
             // tbxValor1
             // 
@@ -85,6 +86,7 @@ namespace ProjetoDPD.View
             this.tbxValor1.Name = "tbxValor1";
             this.tbxValor1.Size = new System.Drawing.Size(72, 29);
             this.tbxValor1.TabIndex = 2;
+            this.tbxValor1.Text = "0";
             // 
             // tbxCodigo2
             // 
@@ -109,6 +111,7 @@ namespace ProjetoDPD.View
             this.tbxValor2.Name = "tbxValor2";
             this.tbxValor2.Size = new System.Drawing.Size(72, 29);
             this.tbxValor2.TabIndex = 5;
+            this.tbxValor2.Text = "0";
             // 
             // tbxCodigo3
             // 
@@ -133,6 +136,7 @@ namespace ProjetoDPD.View
             this.tbxValor3.Name = "tbxValor3";
             this.tbxValor3.Size = new System.Drawing.Size(72, 29);
             this.tbxValor3.TabIndex = 8;
+            this.tbxValor3.Text = "0";
             // 
             // tbxQuantidade1
             // 
@@ -141,6 +145,7 @@ namespace ProjetoDPD.View
             this.tbxQuantidade1.Name = "tbxQuantidade1";
             this.tbxQuantidade1.Size = new System.Drawing.Size(74, 29);
             this.tbxQuantidade1.TabIndex = 9;
+            this.tbxQuantidade1.Text = "0";
             // 
             // tbxQuantidade2
             // 
@@ -149,6 +154,7 @@ namespace ProjetoDPD.View
             this.tbxQuantidade2.Name = "tbxQuantidade2";
             this.tbxQuantidade2.Size = new System.Drawing.Size(74, 29);
             this.tbxQuantidade2.TabIndex = 10;
+            this.tbxQuantidade2.Text = "0";
             // 
             // tbxQuantidade3
             // 
@@ -157,15 +163,16 @@ namespace ProjetoDPD.View
             this.tbxQuantidade3.Name = "tbxQuantidade3";
             this.tbxQuantidade3.Size = new System.Drawing.Size(74, 29);
             this.tbxQuantidade3.TabIndex = 11;
+            this.tbxQuantidade3.Text = "0";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 91);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 15);
+            this.label1.Size = new System.Drawing.Size(90, 15);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Digite o Nome ";
+            this.label1.Text = "Digite o Código";
             // 
             // label2
             // 
@@ -268,6 +275,7 @@ namespace ProjetoDPD.View
             this.tbxDescricao1.Name = "tbxDescricao1";
             this.tbxDescricao1.Size = new System.Drawing.Size(243, 29);
             this.tbxDescricao1.TabIndex = 22;
+            this.tbxDescricao1.Text = "não digite aqui";
             // 
             // btnPesquisarProduto
             // 

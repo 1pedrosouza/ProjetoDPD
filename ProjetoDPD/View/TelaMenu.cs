@@ -40,5 +40,17 @@ namespace ProjetoDPD.View
             Gerenciar_Encomendas telaCadastrar = new Gerenciar_Encomendas();
             telaCadastrar.ShowDialog();
         }
+
+        private void visualizarPerfilToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastroUsuario telaCadastrar = new CadastroUsuario();
+            telaCadastrar.ShowDialog();
+        }
+
+        private void visualizarPerfilToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            VisualizarPerfil telaCadastrar = new VisualizarPerfil();
+            telaCadastrar.ShowDialog();
+        }
     }
 }
